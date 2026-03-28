@@ -8,5 +8,7 @@ codeGenPath = fullfile(currPath, 'sim_files', 'codeGen');
 
 Simulink.fileGenControl('set', 'CacheFolder', cachePath, ...
    'CodeGenFolder', codeGenPath, 'createDir',true);
+   
+open_system('Hybrid_vehicle');
 
 end
